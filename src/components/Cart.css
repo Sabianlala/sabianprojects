@@ -1,0 +1,50 @@
+.h1-cart{
+  background-color: rgb(123, 202, 123);  
+  border-radius: 20px;
+  border: solid;
+  border-color: rgb(79, 203, 79);
+  height: 80px;
+  width: 75%;
+  margin-left: 250px;
+  margin-right: 300px;
+  margin-top:200px;
+  text-align: center;
+  padding-top:13px;
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  color: white;
+  z-index: 1;
+}
+
+.cart-container {
+  position: relative;
+}
+
+.h3-cart {
+  position: sticky;
+  bottom: 0;
+  background-color: #3074bd;
+  color: white;
+  padding: 10px;
+  z-index: 1;
+  border: solid;
+  border-radius: 20px;
+  width: 15%;
+  margin-left: 830px;
+  text-align: center;
+  margin-top: 500px;
+  position: sticky;
+}
+
+
+.empty-cart {
+  position: sticky;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.sticky-cart {
+  top: auto;
+  bottom: 0;
+}
